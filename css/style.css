@@ -2,24 +2,11 @@
     color: #696969;
 }
 
-.section__title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.title__small {
-    display: block;
-    color: #b31463;
-    font-family: 'Indie Flower', cursive;
-    margin-bottom: 15px;
-}
-
 .header {
-    height: 60px;
-    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
+    padding: 0px 20px;
+    height: 60px;
     align-items: center;
 }
 
@@ -53,8 +40,8 @@
 
 .concept__title {
     position: absolute;
-    left: 180px;
-    bottom: 140px;
+    top: 150px;
+    left:21%;
     width: 500px;
 }
 
@@ -63,18 +50,18 @@
 }
 
 .main__title {
-    color: #b31463;
-    font-size: 54px;
-    line-height: 85px;
-    font-family: 'Indie Flower', cursive;;
     margin-bottom: 48px;
+    font-size: 54px;
+    font-family: 'Indie Flower', cursive;;
+    line-height: 85px;
+    color: #b31463;
 }
 
 .main__title-about {
-    color: #b31463;
+    padding-bottom: 5px;
     font-size: 19px;
     font-weight: bold;
-    padding-bottom: 5px;
+    color: #b31463;
 
 }
 
@@ -93,6 +80,21 @@
     margin: 0px auto;
     margin-bottom: 100px;
 }
+
+.title__small {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Indie Flower', cursive;
+    color: #b31463;
+}
+
+.section__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 .news__list {
     border-top: 2px solid #cccccc;
@@ -114,11 +116,11 @@
 }
 
 .news__label {
-    color: #ffffff;
-    background-color: #b31463;
-    border-radius: 15px;
     padding: 0px 20px;
     margin: 0px 30px;
+    background-color: #b31463;
+    border-radius: 15px;
+    color: #ffffff;
 }
 
 .about {
@@ -165,23 +167,23 @@
 
 .content__title {
     margin: 15px;
-    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
+    color: #ffffff;
 }
 
 .content__description {
-    color: #ffffff;
     font-size: 14px;
+    color: #ffffff;
     line-height: 20px;
 }
 
 .service__content-item1 {
     grid-row: 1/3;
     grid-column: 2/3;
-    text-align: center;
-    background-color: #b31463;
     padding: 50px;
+    background-color: #b31463;
+    text-align: center;
 }
 
 .service__content-item2 {
@@ -277,10 +279,10 @@
     border: 2px solid #b31463;
     font-size: 14px;
     font-weight: bold;
+    color: #b31463;
     text-align: center;
     text-decoration: none;
     border-radius: 35px;
-    color: #b31463;
 }
 
 .company__description {
