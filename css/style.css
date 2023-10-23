@@ -34,7 +34,6 @@
 
 .concept {
     display: flex;
-    position: relative;
     margin-bottom: 100px;
 }
 
@@ -152,7 +151,7 @@
 }
 
 .service__title{
-    margin-left: 210px;
+    margin-left: 205px;
 }
 
 .service__content {
@@ -216,7 +215,7 @@
 
 
 .post__title {
-    margin-left: 155px;
+    margin-left: 152px;
 }
 
 .card__box {
@@ -290,7 +289,7 @@
 }
 
 .description__title {
-    margin-left: 255px;
+    margin-left: 252px;
 }
 
 .description__list {
